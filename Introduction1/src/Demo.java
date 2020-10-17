@@ -9,7 +9,7 @@ public class Demo {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.ebay.com/");
        System.out.println(driver.getCurrentUrl());
-	 driver.quit();
+	 
 	}
      
 }
